@@ -1,0 +1,37 @@
+@api = http://localhost:3000/songs
+
+### get users
+GET {{api}}
+
+### create user
+
+POST {{api}}
+Content-Type: application/json
+
+{
+  "song_name": "Te quiero",
+  "song_path": "61739ba713715cdb939882cc",
+  "song_lyric": "Holaaa te quieroo wooo",
+  "artist": "Stevan"
+}
+
+### get single user
+
+GET {{api}}/61739ba713715cdb939882cc
+
+### update single user
+PUT {{api}}/61739ba713715cdb939882cc
+Content-Type: application/json
+
+{
+  "song_name": "Te amo",
+  "song_path": "61739ba7137zzzdb939882cc",
+  "song_lyric": "Holaaa te amooo wooo",
+  "artist": "Magnert"
+}
+
+### delete single user
+DELETE  {{api}}/61739ba713715cdb939882cc
+
+### 404
+GET http://localhost:3000/asdasdad
