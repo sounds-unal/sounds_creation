@@ -1,11 +1,11 @@
-## Flask and Mongodb RESTAPI
+## Flask con Mongodb RESTAPI
 
-This application is a REST API CRUD using Python Flask and mongodb module Flask-Pymongo
+Microservicio basado en flask y mongodb
 
-### Installation with docker-compose (Recommended)
+### Ejecución
 
 ```
 docker-compose up
 ```
 
-now you can visit: http://localhost:3000
+URL: http://localhost:3002
